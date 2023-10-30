@@ -1,4 +1,4 @@
-Package com.dz.dz;
+package com.dz.dz;
 
 import org.springframework.stereotype.Component;
 
