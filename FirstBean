@@ -1,0 +1,16 @@
+Package com.dz.dz;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class FirstBean {
+    private SecondBean secondBean;
+    public FirstBean(PrototypeBean prototypeBean) {
+        System.out.println("Первый создан");
+        System.out.println("Прототайп бин первый " + prototypeBean.toString());
+    }
+
+    public void setSecondBean(SecondBean secondBean) {
+        this.secondBean = secondBean;
+    }
+}
